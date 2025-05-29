@@ -1,0 +1,26 @@
+###
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "dodo@gmail.com",
+    "password": "Dodo12345",
+    "name": "Dodo"
+}
+
+###
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+    "email": "dodo@gmail.com",
+    "password": "Dodo12345" 
+}
+
+###
+POST http://localhost:3000/auth/refresh
+Content-Type: application/json
+
+{
+    "refreshToken": "44b5cf70-56e4-43ed-8ed3-5e2847caae8b"
+}
