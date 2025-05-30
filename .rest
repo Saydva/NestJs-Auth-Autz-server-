@@ -22,5 +22,11 @@ POST http://localhost:3000/auth/refresh
 Content-Type: application/json
 
 {
-    "refreshToken": "44b5cf70-56e4-43ed-8ed3-5e2847caae8b"
+    "refreshToken": "642f6b3a-119b-4fd5-a714-cc31e5087505"
 }
+
+//auth guard
+###
+
+GET http://localhost:3000/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODM5ZmRjNDZiMDFkZGY1YTNmYzlkNTgiLCJpYXQiOjE3NDg2MzEzNjYsImV4cCI6MTc0ODYzNDk2Nn0.5KpCgWfZDg-zjo4s8TUwXFDPxOygDTqykm4d2kuZfvM
